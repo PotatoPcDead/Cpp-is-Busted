@@ -16,9 +16,20 @@ int main(){
     {
     case '*':
         Result = Num1 * Num2;
-    
+        break;
+        
     case '/':
         Result = Num1 / Num2;
+        break;
+
+    case '+':
+        Result = Num1 + Num2;
+        break;
+
+    case "-":
+        Result = Num1- Num2;
+        break;
+
     default:
         break;
     }
