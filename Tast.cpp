@@ -2,7 +2,10 @@
 
 
 int main(){
-    int x = 1;
+    int Operator;
+    int Num1;
+    int Num2;
+    
     std::cout << x;
     return 0;
 }
