@@ -1,7 +1,8 @@
 #include <iostream>
 #include <random>
 
-void random_generator(){
+void random_number_generator(){
+
     srand(time(NULL));
     int random_number_1 = (rand() % 6) + 1;
     int random_number_2 = (rand() % 6) + 2;
@@ -14,8 +15,13 @@ void random_generator(){
 
 int main(){
 
-    random_generator();
+    char decision;
+    std::cout << "\n Would you like to generate random numbers \n y for yes \n n for no \n Decision =      ";
+    std::cin >> decision;
+    if (decision == 'y' || decision == 'Y'){
 
+        random_number_generator();
     
+    }
     return 0;
 }
